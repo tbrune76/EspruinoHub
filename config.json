@@ -9,6 +9,11 @@
   "// Set this to true to only publish MQTT messages for known devices":0,
   "only_known_devices": false,
 
+  "// If there are nagging devices, add their addresses here, to have them ignored":0,
+  "ignored_devices": {
+    "22:1a:23:2f:6e:87" : "pesky"
+  },  
+  
   "// How many seconds to wait for a packet before considering BLE connection":0,
   "// broken and exiting. Higher values are useful with slowly advertising sensors.":0,
   "// Setting a value of 0 disables the exit/restart.":0,
